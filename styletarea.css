@@ -28,7 +28,6 @@ body {
     margin: 10px;
     width: 250px;
     height: 210px;
-    display: inline-block;
     box-sizing: border-box;
     text-align: center;
 }
