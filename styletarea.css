@@ -1,15 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&display=swap');
 .contenedor {
-    display: inline-block;
+    display: flex;
     text-align: center;
-    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
 }
 
 body {
     background-color: #f6f7fb;
-    text-align: center;
     font-size: 1em;
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
 }
 
 .etiquetas {
